@@ -1,0 +1,39 @@
+<html>
+	<head>
+	<script>
+	//your logic
+</script>
+<html>
+<body>
+<h1>your title</h1>
+<p id="demo">javascript can change html content.</p>
+<button type="button"
+onclick="document.getElementbyld('demo').innerhtml='hello
+javascript!">
+click me!</button>
+
+<html>
+<body>
+<h1>javascript can validate input</h1>
+<p>please input a number between 1 and 10;</p>
+<input id="numb">
+<button type="button"onclick="myfunction()">submit</button>
+<p id="demo"></p>
+<script>
+function myfunction() {
+	var x,text;
+	
+	//get the value of the input field with id="numb"
+	x=document.getElementByld("numb").value;
+	
+	//if x is not a number oe less than one or greater than 10
+	if (isNaN(x)||X<1||X>10) {
+		text="input not valid";
+		}else{
+			text="input ok";
+		}
+		document.getElementByld("demo").innerHTML=text;
+		}
+		</script>
+		</body>
+		</html>
